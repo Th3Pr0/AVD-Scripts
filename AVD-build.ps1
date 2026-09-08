@@ -1,5 +1,4 @@
 
-
 $VHDLocations = "\\avdfxlogix3.file.core.windows.net\newprofiles\users"
 New-ItemProperty -Path HKLM:\SOFTWARE\FSLogix\Profiles\ -Name Enabled -PropertyType dword -Value 1 -Force
 New-ItemProperty -Path HKLM:\SOFTWARE\FSLogix\Profiles\ -Name DeleteLocalProfileWhenVHDShouldApply -PropertyType dword -Value 1 -Force
