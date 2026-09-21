@@ -40,8 +40,8 @@ write-host "Configuration Complete"
 
 
 # ----------------- CONFIGURE THESE -----------------
-$InstallerUrl  = "https://sophielex.eastus2.cloudapp.azure.com/updates/SophieLex-Setup-0.1.14.exe"  # public URL or SAS link
-$InstallerName = "SophieLex-Setup-0.1.12.exe"                                                       # local filename to save as
+$InstallerUrl  = "https://sophielex.eastus2.cloudapp.azure.com/updates/SophieLex-latest-windows.exe"  # public URL or SAS link
+$InstallerName = "SophieLex-latest-windows.exe"                                                       # local filename to save as
 $SilentArgs    = "/S /allusers /D=c:\program files\SophieLex"                                       # see framework notes above
 # -----------------------------------------------------
 
